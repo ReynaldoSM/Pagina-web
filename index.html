@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reynaldo Santos Mata</title>
+    <link rel="icon" type="imagen/jpg" href="imagenes/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/4746dcc962.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- poner clases ayuda a realizar un estilo mas minucioso y mejor organizado -->
+    <header class="header">
+        <figure class="logo">
+            <img src="imagenes/r.jpg" alt="imagen de portada" height="90px"> 
+        </figure>
+        
+        <nav class="nav">
+            <ol> 
+                <li>
+                    <!-- el signo de gato # en los enlaces indican que el enlace es dentro de la 
+                        pagina y que dirige a una seccion en especial -->
+
+                    <a class="link" href="#portafolio">Acerca de Mi</a>
+                </li>
+                <li>
+                    <a class="link" href="#tec">Tecnologías</a>
+                </li>
+                <li>
+                    <a class="link" href="#yo">Areas de Interes</a>
+                </li>
+                <li>
+                    <a class="link" href="#juntos">Contactame</a>
+                </li>
+            </ol>
+        </nav>
+    </header>       
+       <!--para crear clases rapido de pone .y nombre de la clase despues tab--> 
+    
+    <section class="hero">
+        <h1>Hola! Soy <strong>Reynaldo Santos</strong>  <br/> estudiante de la Maestría en <br/> <strong>Diseño Multimedia</strong> en la Universidad Tecnológica de México</h1>
+        <img src="imagenes/yo.jpg" alt="im" height="400px">
+    </section>
+    <div>
+        <!-- en la seccion se le coloca un id para identificar a la seccion de las demas  -->
+        <section id="destacado"> 
+            <h3>Acerca de mi</h3>
+            <!-- la etiqueta representa un contenido independiente -->
+                 <section id="portafolio" class="porfolio">
+                     
+                     <!-- small es para hacer aun mas pequeña la letra -->
+                     <p><small><strong>Fecha:</strong>20/02/2022</small></p>
+                     <!-- para que un video aparesca en otra ventana utilizamos el parametro target seguido del atributo _blank entre comillas -->
+                     <article class="project">
+                        <p>¡Hola! los saludo con gusto, básicamente quiero hablar un poco acerca de mí, 
+                            desde hace mucho tiempo alrededor de 10 años me empezó a surgir el gusto por 
+                            la tecnología y esto a raíz de algunos eventos a los cuelas pude asistir, 
+                            eventos donde mostraban el potencial de la tecnología, desde interfaces, 
+                            diseño de software hasta robots que básicamente fue lo que mas me atrajo, 
+                            desde ese momento sabia que era lo que quería hacer; hoy en día tengo la oportunidad 
+                            de estar en este momento cursando una maestría que sin duda alguna potencializara 
+                            mi carrera y me ara lograr mis objetivos; soy una persona muy curiosa y me gusta 
+                            aprender un poco de todo, siendo padre de familia me gusta mostrar a mi hijo lo que 
+                            la tecnología es capaz de hacer si se puede emplear la imaginación y la creatividad.
+                            Hoy en día soy Ingeniero en Sistemas Computacionales carrera que también tuve la fortuna 
+                            de cursar en <a href="https://www.unitec.mx/campus-ecatepec/" target="_blank"><strong>UNITEC</strong></a>campus Ecatepec, 
+                            ya con 29 años cumplidos espero lograr cumplir mi 
+                            próxima meta, para ello me esfuerzo cada día para poder superarme y ser un ejemplo de 
+                            esfuerzo y tenacidad para mis hijos.
+                            .<br>
+                        
+                        <figure class="uni">
+                            <img src="imagenes/unitec.jpg" alt="unitec" width="550">
+                        </figure>
+                     </article>
+             </section>
+       </section>
+    </div>
+    
+    <h3 class="event-tittle">Tecnologías</h3>
+    <section class="event">
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/H5.png" alt="intereses" width="480">
+        </figure>
+        <div class="event-description">
+            <p><strong>HTML</strong></p>
+            <p>Adentrandome a esta tecnología es muy importante conocer que es el esqueleto de toda pagina Web
+                sinduda un lenguaje muy interesante con que cual se puede estructurar cualquier pagina y sobre todo 
+                lo que se puede llegar a realizar cuando se conoce en un nivel avanzado dicho lenguaje
+            </p>
+            <a class="event-url" href="https://developer.mozilla.org/es/docs/Web/HTML"> Saber Más</a>
+        </div>
+    </section>
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/c3.png" alt="intereses" width="500">
+        </figure>
+        <div class="event-description">
+            <p><strong>CSS</strong></p>
+            <p>Hojas de estilos en cascada... Así se le define al lenguaje que define los estilos de una pagina web,
+                si HTML es extenso, CSS es realmente profundo, paginas realizadas realmente increibles 
+                con este lenguaje de estilos de los cuales tuve oportunidad de ver; para conocer dichos sitios dejo el 
+                enlace 
+            </P>
+            <a class="event-url" href="https://jcweb.es/las-8-mejores-paginas-web-con-animacion-css-y-html-para-inspirarte/"> Saber Más</a>
+            </div>
+    </section>
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/py.png" alt="intereses" width="500">
+        </figure>
+        <div class="event-description">
+            <p><strong>PYTHON</strong></p>
+            <p>Hoy en día es un lenguaje que esta acaparando gran parte de la industria tecnológica; desde backend, 
+                aplicaciones web, ciencia de datos e inteligencia artificial; en el siguiente enlace conocemos las bases
+            de este potente lenguaje de un curso que realmente me a ayudado mucho para poder empezar con este lenguaje</P>
+            <a class="event-url" href="https://platzi.com/cursos/python/"> Saber Más</a>
+        </div>
+    </section>
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/arduino.png" alt="intereses" width="500">
+        </figure>
+        <div class="event-description">
+            <p><strong>ARDUINO</strong></p>
+            <p>Para mi, Arduino es uno de los programas más importantes que existe hoy en día ya que a través de su software y 
+                hardware es una forma muy facil y a la vez divertida de iniciarse en el mundo de la tecnología, aprendiendo 
+            conceptos de programación, electronica, componentes electronicos y más, Arduino es uno de los simuladores electronicos 
+        más potentes y que estan al alcance de muchas personas; he aquí algunos proyectos para iniciarce en artuino y conocer
+         su potencial</P>
+                <a class="event-url" href="https://programarfacil.com/blog/arduino-blog/proyectos-arduino-para-iniciarse/"> Saber Más</a>
+            </div>
+    </section>
+    </section>
+    
+    <h3 class="event-tittle">Areas de Interes</h3>
+    <section class="event">
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/datos.jpg" alt="intereses" width="480">
+        </figure>
+        <div class="event-description">
+            <p><strong>CIENCIA DE DATOS</strong></p>
+            <p>Hoy en dia ciencia de datos es una carrera que a despegado a raíz de la situación que vivimos hoy en día,
+                Combina una serie de conocimientos como son programación, estadística, machine learning, bases de datos,  
+                que son clave para poder implementar la ciencia de datos algo que realmente me resulta bastante 
+                interesante poder aplicar en el mundo profesional.   </p>
+            <a class="event-url" href="https://www.oracle.com/mx/data-science/what-is-data-science/"> Saber Más</a>
+        </div>
+    </section>
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/ia.jpg" alt="intereses" width="500">
+        </figure>
+        <div class="event-description">
+            <p><strong>INTELIGENCIA ARTIFICIAL</strong></p>
+            <p>Las cosas cambian continuamente y no es noticia escuchar que algún dispositivo o maquina realiza 
+                ya actividades que un ser humano puede realizar, la tecnología avanza a pasos agigantados y la 
+                inteligencia artificial es muestra de ello por eso es importante conocer a profundidad como se 
+                construye y cuales son las ventajas y consecuencias de desarrollar este tipo de tecnología. </P>
+            <a class="event-url" href="https://www.oracle.com/mx/artificial-intelligence/what-is-ai/"> Saber Más</a>
+            </div>
+    </section>
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/real.jpg" alt="intereses" width="500">
+        </figure>
+        <div class="event-description">
+            <p><strong>REALIDAD AUMENTADA</strong></p>
+            <p>La Realidad Aumentada nos permite añadir capas de información visual sobre el mundo real que nos rodea,
+                mediante la realidad aumentada el mundo virtual se entremezcla con el mundo real, de manera contextualizada,
+                 y siempre con el objetivo de comprender mejor todo lo que nos rodea. </P>
+            <a class="event-url" href="https://rockcontent.com/es/blog/realidad-aumentada/"> Saber Más</a>
+        </div>
+    </section>
+    <section id="yo" class="event-detail">
+        <figure class="event-image">
+            <img class="event-img" src="imagenes/robot.png" alt="intereses" width="500">
+        </figure>
+        <div class="event-description">
+            <p><strong>ROBOTICA</strong></p>
+            <p>Como padre de familia me he dado cuenta que una manera de llamar la atención de los niños al mundo 
+                de la tecnología es la robótica, una de las ciencias mas importantes y que desde temprana edad puede 
+                ser interpretada por los más pequeños realmente es importante conocer como es que se emplea esta ciencia, 
+                desde el diseño hasta las tareas que se realizaran de forma automatizada. </P>
+                <a class="event-url" href="https://www.edsrobotics.com/blog/que-es-la-robotica/"> Saber Más</a>
+            </div>
+    </section>
+    </section>
+    <section id="juntos" class="contact">
+        <!-- from es la etiqueta de formulario y action es el atributo que indica la ccion que ara el formuario
+        en este caso se envia hacia una direccion que nosotros le indiquemos, en este caso suscripcion  -->
+        <div>
+        
+            <h3 class="event-tittle">Contactame</h3><br><br><br><br>
+
+        </div>
+        <div class="social"></br><br><br>
+            <a href="http://"><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+            <a href="http://www.facebook.com/reynaldo.santos.1804"><i class="fa-brands fa-facebook fa-3x"></i></a>
+            <a href="http://reynaldo.santos.1804"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href="reynaldo.santos@outlook.es"><i class="fa-solid fa-envelope fa-3x"></i></a></div> 
+            <a href="documentos/Reynaldo_Santos_CV.pdf">Descarga mi CV</a>       
+        </div>
+            
+
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div>
+        <p>Mi Blog Personal</p>
+    </div>
+    <div>
+        <p>Designed with <\3 by Reynaldo Santos  </p> 
+    </div>
+
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+//declarativas
+
+function miFuncion(){
+    
+}
+//Exprecion

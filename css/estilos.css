@@ -1,0 +1,272 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+/* selector son todas las etiquetas del documento html
+selector descendente se indica de la sigueinte manera */
+/* body header div nav ol li a */
+/* es de afuera hacia adentro */
+
+/* selector de clase se identifica con un punto seguido del nombre de la clase*/
+/* .link */
+
+/* selector id se identifica poniendo el simbolo de gato # */
+/* #portafolio */
+
+/* line-height para modificar el alto de linea
+font-size para modificar el tamaño de la fuente
+font-weight para modificar el tipo de fuente
+font-style para modificar el estilo de la fuente
+letter-spacing para modificar el espacio entre letras
+text-transform para transformar la fuente (mayusculas, minuculas, etc)
+text-decoration para moodificar la decoración de la fuente */
+body{
+    
+    background-color: #1b2127;
+
+}
+.logo{
+    height: 00px;
+    margin: 0px;
+}
+ol,
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    align-items: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.hero{
+    
+    background-image: url('../imagenes/yo.jpg');
+    /* background-image: se utiliza para poner una imagen de fondo;*/
+    background-color: #1b2127;
+    background-size: 300px;
+    /*background-size: se utiliza para modigicar el tamaño del background asignado;*/    
+    background-repeat: no-repeat;
+    /*background-repeat: se utiliza para modificar la repeticion del background asignado*/    
+    background-position-x: right;
+    /*se utiliza para posicionar el backgroun de imagen en alfuna parte especifica*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+    font-size: 24px;
+    color: #0f90d1;
+    font-weight: bolder;
+}
+
+h2{
+    margin: 10px 20px;
+}
+
+h6 {
+   margin: 10px 20px; 
+}
+
+#portafolio p,
+a{
+    margin: 10px 20px;
+    color: aliceblue;
+}
+
+.figure{
+    align-items: center;
+    
+}
+h4{
+    text-align: center;
+    color: #0f90d1;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+    width: 500px;
+    color: white;
+    /*margin-top,right,bottom,left:se utlizan para dar margenes;*/
+    margin: 0px;
+}
+
+h1 strong{
+    color: #0f90d1;
+}
+
+.project{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.nav{
+    height: inherit;
+    
+}
+
+.header{
+    display: flex;
+    background-color: #000000;
+    color: white;
+    justify-content: space-between;
+    height: 90px;
+    }
+    
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    align-items: center;
+    padding: 0px 10px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+
+}
+    
+.header ol{
+     display: flex;
+    height: inherit;
+    }
+    
+.headerol il{
+    height: inherit;
+}
+
+#portafolio {
+    border-radius: 5px;
+    border-color: #000000;
+    border-width: px;
+    border-style: solid;
+    /*border radius es para hacer un borde redondeado*/
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-left:0px;
+    background-image: url("../imagenes/unitec.jpg") no-repeat center center fixed;
+    background-size: cover;
+        
+}
+
+#destacado {
+    background-color: #1b2127;
+    }
+.footer{
+    background-color: #1b2127;
+    color: rgb(243, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*justify-content: space-between se utiliza para enviar
+    cada parte en este cada div en cada uno de los extremos 
+    de la pagina ;*/
+}
+.footer div {
+    display: flex;
+    align-items: center;  
+}
+.footer a{
+    padding: 0px 10px;
+    color: aliceblue;
+}
+.event{
+    display: flex;
+    background-color: #1b2127;
+
+}
+.event-detail{
+    border: 1px solid #0f90d1;
+    border-radius: 5px;
+    overflow: hidden;
+    /*se utiliza para ocultar lo que se desborde de los margenes*/
+    margin: 10px;
+    width: 480px;
+    padding: 0px;
+}
+.event-img{
+    margin: -16px 0px 0px -40px;
+    height: 200px;
+    width: 480px;
+    object-fit: cover;
+    /*object-fit sirve para ajustar la imagen*/
+}
+.event-description{
+    margin: 40px 20px;
+    margin-top: -40px;
+    background-color: #0f90d1;
+    position: relative;
+    /*position relative sirve para superponer elementos encima de otros*/
+    padding: 20px;
+    text-align: center;
+}
+.event-url{
+    border: 2px solid #0f90d1;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+.event-tittle{
+    margin: 20px;
+}
+
+.contact {
+    background-image: url(../imagenes/tecno.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    color: white;
+    justify-content: space-between;
+    
+}
+.contact-tittle{
+    color: white;
+   
+}
+button{
+    color: -internal-dark(black);
+}
+}
+.what{
+    /*border: 2px solid red;*/
+    
+    display: inline-block;
+
+}
+.social-link-twitter{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.social-link-facebook{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+}
+.social-link-git{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+}
+.social-link-instagram{
+    width: 50px;
+    height: 50px;
+    
+    display: inline-block;
+
+}
+
+
